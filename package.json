@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc src/index.ts",
+    "execute": "node src/index.js"
+  },
+  "dependencies": {
+    "typescript": "^3.1.3"
+  }
+}
