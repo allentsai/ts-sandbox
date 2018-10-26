@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "compile": "./node_modules/typescript/bin/tsc src/index.ts",
-    "execute": "node src/index.js"
+    "compile": "./node_modules/typescript/bin/tsc src/index.ts --outDir build",
+    "execute": "node build/index.js"
   },
   "dependencies": {
     "typescript": "^3.1.3"
