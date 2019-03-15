@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc src/index.ts --outDir build",
+    "build": "./node_modules/typescript/bin/tsc",
     "go": "./node_modules/ts-node/dist/bin.js src/index.ts"
   },
   "dependencies": {
@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@types/node": "^10.12.0",
+    "eslint": "^5.15.1",
     "ts-node": "^7.0.1"
   }
 }
